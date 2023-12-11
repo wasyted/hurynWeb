@@ -4,6 +4,7 @@
   <!-- <link rel="stylesheet" href="reset.css"> -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="revealAnimation.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,45 +19,32 @@
   <title>Huryn</title>
 </head>
 <body>
-  <header class="black-background">
-    <div>
-      <img class="header-logo" src="favicon.png" alt="" srcset="">
-    </div>
-    <div>
-      <ul>
-        <li><a class="light-font" href="#about">QUIENES SOMOS</a></li>
-        <li><a class="light-font" href="#projects">NUESTROS TRABAJOS</a></li>
-        <li><a class="light-font" href="#location">CONTACTO</a></li>
-      </ul>
-    </div>
+  <header>
+    <button class="menu-button"></button>
+    <img class="header-logo" src="logo.png" alt="" srcset="">
+    <button class="contact-button">Contacto</button>
   </header>
   <div class="about" id="about">
     <div class="about-section">
-      <div class="about-text-container">
-        <div>
-          <img class="logo invert" src="logo.png" alt="" srcset="">
-          <p class="light-font">Huryn es una empresa de instalación de láminas para vidrios del automotor y edificios. Contamos con 25 años de experiencia en VENTAS, INSTALACIÓN y MANTENIMIENTO de láminas de polarizado que brindan SEGURIDAD, COMFÓRT y ESTILO.</p>   
-        </div>
-      </div>
-      <div class="available-form">
-        <h2>Consulta disponibilidad:</h2>
-        <form>
-          <label for="brand">Marca:
-           <input class="vehicle-input" type="text">
-          </label>
-          <label for="model">Modelo:
-            <input class="vehicle-input" type="text">
-          </label>  
-          <label for="year">Año:
-            <input class="vehicle-input" type="text">
-          </label>
-          <button id="submitAvailableForm">Consultar</button>
-        </form>
-        <h2 class="available green-text"></h2> 
-      </div>
+        <h1>Polarizá tu vehículo con nosotros</h1>
+        <p>Somos Huryn: una empresa de venta y colocación de láminas de polarizado, 
+          tanto en vehiculos como en edificios/oficinas. Llevamos 25 años ofreciendo 
+          una experiencia especial; el cuidado de tu auto es nuestra máxima prioridad.
+        </p>
+        <button>Pedir turno</button>
     </div>
-    <div class="video-container">
-      <video id="video-bg" class="video-background" src="videos/SaveInsta.App - 2661922780899953707.mp4" muted autoplay loop></video>
+  </div>
+  <div class="black-background light-font" id="services">
+    <div class="services-section-header">
+      <h2>3 servicios que ofrecemos</h2>
+      <div class="logo-container">
+        <img class='logo' src="logo.png" alt="">
+      </div>
+      <p>
+        En Huryn nos aseguramos de darte el mejor servicio capacitando
+        constantemente a todo nuestro personal para asegurar el cuidado
+        de tu vehiculo.
+      </p>
     </div>
   </div>
   <div class="black-background light-font" id="projects">
@@ -103,7 +91,7 @@
         <p><a href="mailto:hurynweb@gmail.com ">hurynweb@gmail.com</a></p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.552201351337!2d-58.29092545313649!3d-34.74168018394476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32dd0f8845d35%3A0x2482e7e917c66033!2sHuryn%20Polarizados!5e0!3m2!1ses!2sar!4v1697043105769!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="contact-container light-background reveal fade-right">
+      <!-- <div class="contact-container light-background reveal fade-right">
         <div class="contact-logo">
           <img src="images/telephone_159832.png" alt="" srcset="">
           <img src="images/maps-flags_447031.png" alt="" srcset="">
@@ -114,7 +102,7 @@
         <p>Lunes a viernes de 9:00 a 16:00</p>
         <p><a href="mailto:hurynweb@gmail.com ">hurynweb@gmail.com</a></p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.6469127128107!2d-58.390496824739365!3d-34.688859861998786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcccc4ada23261%3A0x60e1099f2d5a8cb0!2sHuryn%20Polarizados!5e0!3m2!1ses!2sar!4v1697043758405!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="footer">

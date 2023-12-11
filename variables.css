@@ -1,0 +1,29 @@
+.yellow-highlighted{
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.less-highlighted{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.highlighted{
+  font-weight: bold;
+}
+
+.black-background{
+  background-color: #0d0d0d;
+}
+
+.light-font{
+  color: #fff;
+}
+
+.yellow-background{
+  background-color: #ffcc00;
+}
+
+.light-background{
+  background-color: #ffffff;
+}

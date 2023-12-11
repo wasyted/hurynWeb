@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4096 4096" width="4096" height="4096">
+	<title>Proyecto nuevo</title>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<path id="Background" class="s0" d="m0 1832.3v-260.5h4096v260.5z"/>
+	<path id="Background copy" class="s0" d="m0 2536.3v-260.5h4096v260.5z"/>
+	<path id="Layer 1" class="s0" d="m0 2523.8v-213.4h3353.9v213.4z"/>
+</svg>

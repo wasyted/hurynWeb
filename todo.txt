@@ -1,0 +1,45 @@
+Encabezado: 
+Logo de la empresa.
+Nombre del negocio.
+Llamada a la acción principal (puede ser un botón para solicitar un presupuesto o agendar una cita).
+
+Servicios:
+Breve descripción de los servicios ofrecidos (polarizado de vehículos y edificios).
+Imágenes o iconos representativos de los servicios.
+
+Ventajas y Beneficios:
+Destaca las razones por las cuales los clientes deberían elegir tus servicios.
+Ejemplos: seguridad, protección UV, privacidad, estética, etc.
+
+Galería de Trabajos Realizados:
+Muestra imágenes de trabajos anteriores para demostrar la calidad y variedad de tus servicios.
+
+Proceso de Trabajo:
+Explica cómo es el proceso de instalación de los polarizados.
+Puedes incluir información sobre el tiempo estimado, tipos de materiales utilizados, etc.
+
+Preguntas Frecuentes (FAQ):
+Responde a preguntas comunes que los clientes podrían tener.
+Ejemplos: ¿Cuánto tiempo tarda la instalación? ¿Qué tipo de garantía ofrecen?
+
+Testimonios:
+Comentarios de clientes satisfechos.
+Puedes incluir nombres y fotos para dar autenticidad.
+
+Información de Contacto:
+Número de teléfono.
+Formulario de contacto.
+Dirección física del local (si aplica).
+
+Mapa de Ubicación:
+Incorpora un mapa interactivo para que los clientes encuentren fácilmente tu ubicación.
+
+Llamada a la Acción (CTA):
+Botones o enlaces que dirijan a los visitantes a solicitar un presupuesto, agendar una cita o cualquier otra acción deseada.
+
+Redes Sociales:
+Enlaces a tus perfiles en redes sociales para que los clientes puedan seguirte.
+
+Información Adicional:
+Política de privacidad.
+Términos y condiciones.
