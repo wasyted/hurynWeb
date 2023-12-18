@@ -1,0 +1,115 @@
+#services{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+  
+.services-section-header{
+    margin: auto;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+  
+.services-section-header > h2{
+    font-size: 2rem;
+    font-family: 'Gabarito';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.services-section-header > p{
+    max-width: 45ch;
+    font-family: 'Gabarito';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+  
+.tasks-section{
+    background-color: #ffffff;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    color: #121212;
+    max-width: 1280px;
+}
+  
+.task-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.task-container > p{
+    font-family: 'Gabarito';
+    text-align: center;
+    max-width: 20ch;
+    min-height: 5ch;
+}
+  
+.tasks-section img{
+    border: #0d0d0d 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+    width: 3rem;
+    height: auto !important;
+}
+  
+.divider > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 1rem;
+    opacity: 0.7;
+    border: none;
+}
+
+
+@media (max-width: 599px) {
+    .services-section-header{
+        align-items: center;
+    }
+    .services-section-header > h2{
+        text-align: center;
+    }
+    .tasks-section{
+        flex-wrap: wrap;
+    }
+    .task-container{
+        flex: 1;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .divider{
+        flex: 1;
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 600px) {
+    #services .divider{
+        display: none;
+    }
+}

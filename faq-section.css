@@ -1,0 +1,25 @@
+.faq-section{
+    padding: 50px;
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 80px;
+    min-height: 70dvh;
+}
+
+.faq-section h2{
+    padding: 30px;
+    padding-left: 0;
+    font-family: 'Gabarito';
+}
+
+.question-container{
+    padding-bottom: 20px;
+}
+
+.accordion{
+    font-family: 'Quicksand';
+}
+
+.panel > p{
+    font-family: 'Quicksand';
+}

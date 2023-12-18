@@ -1,0 +1,80 @@
+#about{
+    overflow: hidden;
+    color: #151515;
+    max-width: 1280px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.about-section{
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    min-height: 500px;
+}
+
+.about-section > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-section > h1{
+    font-family: 'Gabarito';
+    font-size: 5rem;
+    letter-spacing: -2px;
+    word-spacing: -5px;
+    line-height: 1;
+    padding: 20px;
+}
+
+.about-section > div > p{
+    justify-self: start;
+    font-size: 0.9rem;
+    font-family: 'Quicksand';
+    max-width: 45ch;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.about-section > h2{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-stretch: narrower;
+    height: min-content;
+    color: #121212;
+}
+
+.about-section > div > button{
+    height: 35px;
+    width: 150px;
+    border-radius: 0px;
+    outline: 2px solid #121212;
+    border: none;
+    background-color: #ffcc00;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    transition: background-color 50ms ease-in;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-self: end;
+}
+
+.about-section > button:hover{
+    border: none;
+    background-color: #121212;
+    color: #fff;
+}
+
+.about-section > button:active{
+    outline-offset: 1px;
+    border: none;
+}
+  
+  
