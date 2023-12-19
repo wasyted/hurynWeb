@@ -46,3 +46,9 @@
   gap: 10px;
   font-family: 'Gabarito';
 }
+
+@media (max-width: 768px){
+  .contact-container > div{
+    min-width: 100%;
+  }
+ }
