@@ -1,0 +1,51 @@
+.footer{
+  padding: 30px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-family: 'Gabarito';
+  color: #fff;
+  background-color: #151515;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.footer a{
+  color: #fff;
+}
+
+.footer h2{
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.footer img{
+  max-width: 150px;
+}
+
+.footer > div > ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+}
+
+.footer > div > ul > li{
+  transition: 100ms ease-in-out;
+  padding: 5px;
+  max-width: max-content;
+}
+
+
+.footer > div > ul > li:hover{
+  background-color: #e7e7e7;
+  color: #151515;
+}
+
+.footer > div > ul > li:active{
+  background-color: #dadada;
+  color: #151515;
+}

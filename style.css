@@ -186,37 +186,6 @@ iframe{
   background-color: #ffcc00;
 }
 
-.contact-container{
-  padding: 15px;
-  min-width: 100%;
-}
-
-.contact-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 2px;
-  position: relative;
-  top: -30px;
-  height: 20px;
-  align-self: center;
-}
-
-.contact-logo > img{
-  background-color: #ffffff;
-  padding: 10px;
-  width: 30px;
-  height: auto;
-  border-radius: 5px;
-  position: relative;
-  transition: .2s;
-}
-
-.contact-logo >img:hover{
-  filter: invert();
-}
-
 .brand-logo-container:hover , .brand-logo-container > img:hover{
   filter: grayscale(0);
 }

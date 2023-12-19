@@ -1,0 +1,48 @@
+.contact-section{
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1280px;
+  padding-top: 80px;
+  margin-top: 50px;
+}
+
+.contact-text-container , .contact-container{
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  min-width: 100%;
+  flex-wrap: wrap;
+}
+
+.contact-text-container{
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-container{
+  gap: 20px;
+}
+
+.contact-section iframe{
+  flex: 1;
+  min-height: 400px;
+}
+
+.contact-text-container > h2{
+  font-family: 'Gabarito';
+}
+
+.contact-text-container > p{
+  font-family: 'Quicksand';
+}
+
+.contact-container > div{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Gabarito';
+}
