@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="brands-section.css">
   <link rel="stylesheet" href="faq-section.css">
   <link rel="stylesheet" href="reviews.css">
+  <link rel="stylesheet" href="welcome-section.css">
   <link rel="stylesheet" href="button.css">
   <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="revealAnimation.css">
@@ -27,13 +28,30 @@
   <title>Huryn</title>
 </head>
 <body>
-  <header>
-    <button class="menu-button"></button>
-    <img class="header-logo" src="logo.png" alt="" srcset="">
-    <button class="contact-button">Contacto</button>
+  <header id="header">
+    <div>
+      <button class="menu-button"></button>
+      <img class="header-logo" src="logo.png" alt="" srcset="">
+    </div>
+    <ul>
+      <li class="link">Servicios</li>
+      <li class="link">Beneficios</li>
+      <li class="link">Trabajos</li>
+      <li class="link">Preguntas Frecuentes</li>
+      <li class="link">Redes</li>
+      <li class="link">Mas info</li>
+    </ul>
+    <button id="headerContactButton" class="contact-button">Contacto</button>
   </header>
+  <div class="welcome-section">
+    <h1>BIENVENIDO A</h1>
+    <img class="welcome-logo" style='filter: invert();'src="logo.png" alt="" srcset="">
+    <video class="welcome-video" src="videos/SaveInsta.App - 2661922780899953707.mp4" autoplay muted loop></video>
+    <div class="video-overlay"></div>
+  </div>
   <div id="about" class="about">
     <div class="about-section">
+      <div class="about-text-container">
         <h1>Polarizá tu vehículo con nosotros</h1>
         <div>
           <p>Somos Huryn: una empresa de venta y colocación de láminas de polarizado, 
@@ -42,6 +60,10 @@
           </p>
           <button>Pedir turno ></button>
         </div>
+      </div>
+      <!-- <div class="about-logo-container">
+        <img src="logo.png" alt="" srcset="">
+      </div> -->
     </div>
     <div class="shortcuts-grid">
       <div class="shortcut-card shortcut-card-1">
@@ -134,12 +156,66 @@
     </div>
   </div>
   <div class="brands-section">
-    <h2 class="reveal fade-bottom">TRABAJAMOS LAS MEJORES MARCAS DEL MERCADO</h2>
+    <h2 class="">TRABAJAMOS LAS MEJORES MARCAS DEL MERCADO</h2>
     <div class="brands-container">
-      <div class="brand-logo-container reveal fade-bottom"><img src="images/pngwing.com (2).png" alt="" srcset=""></div>
-      <div class="brand-logo-container reveal fade-bottom"><img src="images/pngwing.com (1).png" alt="" srcset=""></div>
-      <div class="brand-logo-container reveal fade-bottom"><img src="images/3d (1).png" alt="" srcset=""></div>
-      <div class="brand-logo-container reveal fade-bottom"><img src="images/wft.png" alt="" srcset=""></div>
+      <div class="brand-logo-container"><img src="images/pngwing.com (2).png" alt="" srcset=""></div>
+      <div class="brand-logo-container"><img src="images/pngwing.com (1).png" alt="" srcset=""></div>
+      <div class="brand-logo-container"><img src="images/3d (1).png" alt="" srcset=""></div>
+      <div class="brand-logo-container"><img src="images/wft.png" alt="" srcset=""></div>
+    </div>
+    <h2 class="">CONTAMOS CON SOPORTE PARA CUALQUIER FABRICANTE</h2>
+    <div class="brands-container">
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/580b585b2edbce24c47b2c18.png" alt="" srcset="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (1).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (2).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (3).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (4).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (15).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (9).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (7).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (8).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (10).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (11).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (12).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (13).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (14).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (17).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (18).png" alt="">
+      </div>
+      <div class="car-brand-logo-container">
+        <img src="images/car-brands/pngwing.com (19).png" alt="">
+      </div>
     </div>
   </div>
   <div class="faq-section">
@@ -149,36 +225,36 @@
     <div class="reveal fade-left question-container">
       <button class="accordion">¿Cuanto demora la instalación?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="font-weight: bold;">De 3-5 hs, mientras esperas tenemos sala de espera con aire acondicionado y tele con wifi.</p>
       </div>
     </div>
     <div class="reveal fade-left question-container">
       <button class="accordion">¿Cual es el plazo de garantía?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="font-weight: bold;">3 años</p>
       </div>
     </div>
     <div class="reveal fade-left question-container">
       <button class="accordion">¿Ayuda a rechazar el calor?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="font-weight: bold;">Mejora la eficiencia del aire acondicionado del auto hasta en un 50%</p>
       </div>
     </div>
     <div class="reveal fade-left question-container">
       <button class="accordion">¿Disminuye la visibilidad?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="font-weight: bold;">No, El efecto se observa de afuera hacia adentro. Contamos con 5 tonalidades con distinto porcentaje de polarización.</p>
       </div>
     </div>
     <div class="reveal fade-left question-container">
       <button class="accordion">Auto polarizado, ¿Pasa la VTV?</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="font-weight: bold;">Si. La legislación vigente marca el vidrio polarizado como observado. Tené en cuenta que podes tener hasta 3 observaciones.</p>
       </div>
     </div>
   </div>
   <div class="reviews">
-    <h1>Lo que opinan nuestros clientes</h1>
+    <h1>Opiniones de nuestros clientes</h1>
     <div class="reviews-container">
       <a href="https://maps.app.goo.gl/jVtvBg5BL8CrqKV36" target="_blank">
         <div class="review">
@@ -260,8 +336,12 @@
   </div>
   <div class="footer">
   </div>
+  <div class="wpp-button">
+    <button><img src="images/wpp.webp" alt="" srcset=""></button>
+  </div>
 </body>
 <script src="accordion.js"></script>
 <script src="revealAnimation.js"></script>
 <script src="checkAvailability.js"></script>
+<script src="headerAnimation.js"></script>
 </html>

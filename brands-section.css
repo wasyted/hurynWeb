@@ -1,19 +1,19 @@
 .brands-section{
     margin: auto;
-    padding: 50px;
+    padding: 10px;
     background-color: #ffffff;
 }
 
   .brands-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     overflow: hidden;
     background-color: #ffffff;
-    padding: 30px;
-    max-width: 1280px;
+    padding: 10px;
+    max-width: 900px;
   }
   
 .brands-section > h2{
@@ -24,10 +24,19 @@
 }
 
   .brand-logo-container{
-    flex: 1;
-    max-width: 100px;
+    max-width: 80px;
   }
   
+  .car-brand-logo-container{
+    max-width: 50px;
+  }
+
+  .car-brand-logo-container > img{
+    max-height: 100%;
+    max-width: 100%;
+    transition: 1s;
+  }
+
   .brand-logo-container > img{
     max-height: 100%;
     max-width: 100%;

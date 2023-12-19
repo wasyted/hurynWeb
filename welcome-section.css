@@ -1,0 +1,50 @@
+.welcome-section{
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.welcome-section > h1{
+  color: #fff;
+  z-index: 10;
+  margin-top: auto;
+  font-weight: bold;
+  font-family: 'Gabarito';
+}
+
+.welcome-section > .video-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.welcome-section > .welcome-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  filter: blur(3px);
+  filter: brightness(50%);
+}
+
+.welcome-section > .welcome-logo{
+  position: relative;
+  max-width: 80%;
+  padding: 10px;
+  z-index: 10;
+  margin-bottom: auto;
+}
+
+@media (max-width: 768px){
+  .welcome-section > h1{
+    display: none;
+  }
+}
