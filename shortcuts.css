@@ -25,7 +25,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-1 > p{
+.shortcut-card-1 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -51,7 +51,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-2 > p{
+.shortcut-card-2 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -77,7 +77,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-3 > p{
+.shortcut-card-3 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -103,10 +103,11 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-4 > p{
+.shortcut-card-4 > a{
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
 min-width: 100%;
 min-height: 300px;
 font-size: 1.5rem;
@@ -129,7 +130,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-5 > p{
+.shortcut-card-5 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -155,7 +156,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-6 > p{
+.shortcut-card-6 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -181,7 +182,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-7 > p{
+.shortcut-card-7 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -207,7 +208,7 @@ justify-content: center;
 align-items: center;
 }
 
-.shortcut-card-8 > p{
+.shortcut-card-8 > a{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -224,7 +225,7 @@ overflow: hidden !important;
 transition: 200ms ease-in-out;
 }
 
-.shortcut-card:hover > p{
+.shortcut-card:hover > a{
 background-color: #0000008a;
 }
 

@@ -15,7 +15,7 @@
 }
 
 a{
-  color: black;
+  color: inherit;
   text-decoration: none;
   cursor: pointer;
 }
@@ -263,7 +263,7 @@ label{
   }
 }
 
-.wpp-button > button{
+.wpp-button > a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,7 +273,7 @@ label{
   overflow: hidden;
 }
 
-.wpp-button > button > img{
+.wpp-button > a > img{
   width: 100%;
 }
 

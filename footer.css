@@ -40,12 +40,12 @@
 }
 
 
-.footer > div > ul > li:hover{
+.footer > div > ul > li:hover > a , .footer > div > ul > li:hover{
   background-color: #e7e7e7;
   color: #151515;
 }
 
-.footer > div > ul > li:active{
+.footer > div > ul > li:active > a , .footer > div > ul > li:active{
   background-color: #dadada;
   color: #151515;
 }
