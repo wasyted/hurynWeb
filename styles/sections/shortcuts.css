@@ -17,9 +17,6 @@
     font-family: 'Gabarito';
     font-size: 1rem;
     background-color: #0d0d0d;
-    background-image: url('../assets/images/stock-images/1.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,9 +40,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/2.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,9 +63,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/3.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,9 +86,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/4.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,9 +110,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/5.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,9 +133,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/6.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,9 +156,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/7.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,9 +179,6 @@
     color: #fff;
     font-family: 'Gabarito';
     font-size: 1rem;
-    background-image: url('../assets/images/stock-images/8.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,6 +199,17 @@
     border-radius: 5px;
     overflow: hidden !important;
     transition: 200ms ease-in-out;
+    position: relative;
+}
+
+.shortcut-card > a{
+    z-index: 2;
+}
+
+.shortcut-card > img{
+    max-height: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
 .shortcut-card:hover > a{
